@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: "jdbc:oracle:thin:@bananaplanner.c5yaogouikd1.ap-northeast-2.rds.amazonaws.com:1521:orcl"
+    username: "banana"
+    password: "bananaplanner"
+    driver-class-name: oracle.jdbc.OracleDriver
+
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show_sql: true
