@@ -5,7 +5,7 @@ spring:
   datasource:
     url: "jdbc:oracle:thin:@bananaplanner.c5yaogouikd1.ap-northeast-2.rds.amazonaws.com:1521:orcl"
     username: "banana"
-    password: "bananaplanner"
+    password: ENC(ZhKrAwSJ9yKQmi/5PshmYNVC3mkAY2We)
     driver-class-name: oracle.jdbc.OracleDriver
 
     jpa:
